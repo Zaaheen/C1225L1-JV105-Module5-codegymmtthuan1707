@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "id": "1",
+      "name": "Thuốc giảm đau",
+      "description": "Thuốc hỗ trợ giảm đau, hạ sốt"
+    },
+    {
+      "id": "2",
+      "name": "Vitamin & khoáng chất",
+      "description": "Thực phẩm bổ sung vitamin và khoáng chất"
+    },
+    {
+      "id": "3",
+      "name": "Thuốc cảm cúm",
+      "description": "Sản phẩm hỗ trợ điều trị triệu chứng cảm cúm"
+    },
+    {
+      "id": "4",
+      "name": "Chăm sóc cá nhân",
+      "description": "Sản phẩm chăm sóc sức khỏe cá nhân"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "code": "PROD0001",
+      "name": "Efferalgan 500mg",
+      "categoryId": "1",
+      "price": 55000,
+      "quantity": 45,
+      "importDate": "2026-08-12"
+    },
+    {
+      "id": "2",
+      "code": "PROD0002",
+      "name": "Panadol Extra",
+      "categoryId": "1",
+      "price": 68000,
+      "quantity": 30,
+      "importDate": "2026-09-01"
+    },
+    {
+      "id": "3",
+      "code": "PROD0003",
+      "name": "Vitamin C 1000mg",
+      "categoryId": "2",
+      "price": 125000,
+      "quantity": 60,
+      "importDate": "2026-07-25"
+    },
+    {
+      "id": "4",
+      "code": "PROD0004",
+      "name": "Tiffy Cold",
+      "categoryId": "3",
+      "price": 35000,
+      "quantity": 50,
+      "importDate": "2026-10-02"
+    },
+    {
+      "id": "5",
+      "code": "PROD0005",
+      "name": "Nước súc miệng Listerine",
+      "categoryId": "4",
+      "price": 89000,
+      "quantity": 24,
+      "importDate": "2026-09-18"
+    },
+    {
+      "id": "0p-JHK3p5bw",
+      "code": "PROD1111",
+      "name": "ABC",
+      "categoryId": "4",
+      "price": 5000,
+      "quantity": 1,
+      "importDate": "2026-10-22",
+      "description": ""
+    },
+    {
+      "id": "5iaM80piaMo",
+      "code": "PROD1112",
+      "name": "XYZ",
+      "categoryId": "1",
+      "price": 100000,
+      "quantity": 12,
+      "importDate": "2026-10-22",
+      "description": ""
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
